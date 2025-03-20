@@ -1,7 +1,7 @@
 
 <?php
-session_start();
 require_once 'src/Config/config.php';
+session_start();
 require_once 'src/Controllers/AuthController.php';
 ?>
 <!DOCTYPE html>
