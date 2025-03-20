@@ -1,0 +1,32 @@
+
+( ! ) Warning: ini_set(): Session ini settings cannot be changed when a session is active in I:\python-ai\replit\MyApp-PHP\src\Config\config.php on line 12
+Call Stack
+#	Time	Memory	Function	Location
+1	0.0002	405392	{main}( )	...\index.php:0
+2	0.0004	409448	require_once( 'I:\python-ai\replit\MyApp-PHP\src\Config\config.php )	...\index.php:4
+3	0.0005	409592	ini_set( $option = 'session.cookie_httponly', $value = 1 )	...\config.php:12
+
+( ! ) Warning: ini_set(): Session ini settings cannot be changed when a session is active in I:\python-ai\replit\MyApp-PHP\src\Config\config.php on line 13
+Call Stack
+#	Time	Memory	Function	Location
+1	0.0002	405392	{main}( )	...\index.php:0
+2	0.0004	409448	require_once( 'I:\python-ai\replit\MyApp-PHP\src\Config\config.php )	...\index.php:4
+3	0.0068	410224	ini_set( $option = 'session.use_only_cookies', $value = 1 )	...\config.php:13
+
+( ! ) Warning: ini_set(): Session ini settings cannot be changed when a session is active in I:\python-ai\replit\MyApp-PHP\src\Config\config.php on line 14
+Call Stack
+#	Time	Memory	Function	Location
+1	0.0002	405392	{main}( )	...\index.php:0
+2	0.0004	409448	require_once( 'I:\python-ai\replit\MyApp-PHP\src\Config\config.php )	...\index.php:4
+3	0.0131	410224	ini_set( $option = 'session.cookie_secure', $value = 0 )	...\config.php:14
+
+( ! ) Warning: require_once(src/Controllers/AuthController.php): Failed to open stream: No such file or directory in I:\python-ai\replit\MyApp-PHP\index.php on line 5
+Call Stack
+#	Time	Memory	Function	Location
+1	0.0002	405392	{main}( )	...\index.php:0
+
+( ! ) Fatal error: Uncaught Error: Failed opening required 'src/Controllers/AuthController.php' (include_path='.;C:\php81\pear') in I:\python-ai\replit\MyApp-PHP\index.php on line 5
+( ! ) Error: Failed opening required 'src/Controllers/AuthController.php' (include_path='.;C:\php81\pear') in I:\python-ai\replit\MyApp-PHP\index.php on line 5
+Call Stack
+#	Time	Memory	Function	Location
+1	0.0002	405392	{main}( )	...\index.php:0
