@@ -3,6 +3,8 @@
 require_once 'src/Config/config.php';
 session_start();
 require_once 'src/Controllers/AuthController.php';
+
+$page = $_GET['page'] ?? 'home';
 ?>
 <!DOCTYPE html>
 <html lang="en">

@@ -1,0 +1,14 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prose {
+    max-width: 65ch;
+    color: inherit;
+}
+
+.prose h1 {
+    color: inherit;
+    margin-bottom: 1rem;
+}
